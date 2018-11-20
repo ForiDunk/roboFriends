@@ -1,0 +1,14 @@
+import React from 'react';
+import { 
+    CHANGE_SEARCH_FIELD,
+    REQUEST_ROBOTS_PENDING,
+    REQUEST_ROBOTS_SUCCESS,
+    REQUEST_ROBOTS_FAILED
+ } from './constants';
+
+test('Constants', () => {
+    expect(CHANGE_SEARCH_FIELD).toBe('CHANGE_SEARCH_FIELD');
+    expect(REQUEST_ROBOTS_PENDING).toBe('REQUEST_ROBOTS_PENDING');
+    expect(REQUEST_ROBOTS_SUCCESS).toBe('REQUEST_ROBOTS_SUCCESS');
+    expect(REQUEST_ROBOTS_FAILED).toBe('REQUEST_ROBOTS_FAILED');
+})
